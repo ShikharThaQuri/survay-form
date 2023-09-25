@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f07167;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+p,
+label {
+  font-size: 1.225rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+#description {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.heading {
+  text-align: center;
+  margin: 3rem;
+}
+
+form {
+  background: linear-gradient(rgba(9, 2, 3, 0.5), rgba(9, 2, 3, 0.5)),
+    url(https://i.pinimg.com/originals/f9/6b/56/f96b5615fc916c08b837d16360e8d7ce.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  max-width: 45rem;
+  min-width: 25rem;
+  margin: auto;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+}
+
+label {
+  display: block;
+}
+
+.div-style {
+  margin: 2rem 0;
+}
+
+.first3 input {
+  background-color: #f07167;
+  color: white;
+  width: 95%;
+  font-size: inherit;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1.5rem;
+
+  outline: none;
+}
+
+::placeholder {
+  color: whitesmoke;
+}
+
+.div-style select {
+  background-color: #f07167;
+  color: white;
+  width: 100%;
+  font-size: inherit;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 0.4rem;
+
+  outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #f07167;
+  margin-right: 1rem;
+  height: 1.3rem;
+  width: 1.3rem;
+  vertical-align: middle;
+}
+
+textarea {
+  background-color: #f07167;
+  color: white;
+  font: inherit;
+  font-size: inherit;
+  width: 95%;
+  font-size: inherit;
+  outline: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+input[type="submit"] {
+  background-color: #f07167;
+  color: white;
+  width: 100%;
+  padding: 0.5rem 0;
+  font: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  border: none;
+  border-radius: 1.5rem;
+
+  cursor: pointer;
+  transition: 0.25s;
+}
+input[type="submit"]:hover {
+  background-color: #a7c957;
+}

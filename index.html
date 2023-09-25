@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey-form.freecodecamp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="heading">
+      <h1 id="title">FreeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+    </div>
+
+    <form id="survey-form">
+      <div class="first3 div-style">
+        <label id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+      </div>
+      <div class="first3 div-style">
+        <label id="email-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <div class="first3 div-style">
+        <label id="number-label">Age</label>
+        <input type="number" id="number" min="10" max="99" placeholder="Age" />
+      </div>
+
+      <div class="div-style">
+        <p>Which option describes your current role?</p>
+        <select id="dropdown">
+          <option>Student</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="div-style">
+        <p>Would you recommmend freeCodeCamp to a friend?</p>
+        <div class="recomm-div">
+          <input
+            type="radio"
+            value="definitely"
+            name="user-recomended"
+          />Definitely
+        </div>
+        <div class="recomm-div">
+          <input type="radio" value="maybe" name="user-recomended" />Maybe
+        </div>
+        <div class="recomm-div">
+          <input type="radio" value="not-sure" name="user-recomended" />Not Sure
+        </div>
+      </div>
+
+      <div class="div-style">
+        <p>What would you like to see improved?</p>
+        <div>
+          <input type="checkbox" value="front-end-project" />Front-end Projects
+        </div>
+        <div>
+          <input type="checkbox" value="back-end-project" />Back-end Projects
+        </div>
+        <div>
+          <input type="checkbox" value="data-visualization" />Data Visualization
+        </div>
+        <div><input type="checkbox" value="video" />Videos</div>
+      </div>
+
+      <div class="div-style">
+        <p>Any comments or suggestions?</p>
+        <textarea cols="30" rows="7"></textarea>
+      </div>
+
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
